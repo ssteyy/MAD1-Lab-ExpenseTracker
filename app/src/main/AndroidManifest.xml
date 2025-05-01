@@ -1,0 +1,62 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.expense_tracker">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_notification" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/notification_color" />
+
+        <!-- WelcomeActivity is the launcher activity -->
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- RegisterActivity for user registration -->
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+
+        <!-- LoginActivity for user login -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+
+        <!-- MainActivity for the main dashboard -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <!-- ExpenseTrackerActivity for adding expenses -->
+        <activity
+            android:name=".ExpenseTrackerActivity"
+            android:exported="false" />
+
+        <!-- ItemExpenseActivity for viewing the expense list -->
+        <activity
+            android:name=".ItemExpenseActivity"
+            android:exported="false" />
+
+        <!-- DetailExpense for showing expense details -->
+        <activity
+            android:name=".DetailExpense"
+            android:exported="false" />
+    </application>
+</manifest>

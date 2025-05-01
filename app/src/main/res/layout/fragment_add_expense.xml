@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:ignore="ExtraText">
+
+    <!-- Expense Title EditText -->
+    <EditText
+        android:id="@+id/expense_title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Expense Title"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:contentDescription="Expense title input field"
+        android:importantForAccessibility="yes"/>
+
+    <!-- Expense Amount EditText -->
+    <EditText
+        android:id="@+id/expense_amount"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Amount"
+        android:inputType="numberDecimal"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:importantForAccessibility="yes"
+        android:contentDescription="Expense amount input field" />
+
+    <!-- Save Expense Button -->
+    <Button
+        android:id="@+id/btn_save_expense"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Save Expense"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:importantForAccessibility="yes"
+        android:contentDescription="Button to save expense"/>
+
+</LinearLayout>

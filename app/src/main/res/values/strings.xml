@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Expense Tracker</string>
+    <string-array name="spinner_items">
+        <item>Food</item>
+        <item>Drinks</item>
+        <item>Shopping</item>
+        <item>Skin Care</item>
+        <item>Travel</item>
+    </string-array>
+
+    <string name="amount">Amount:</string>
+    <string name="category">Category:</string>
+    <string name="date">Date:</string>
+    <string name="remark">Remark:</string>
+
+    <string name="hint_remark">Remark</string>
+    <string name="hint_amount">Amount</string>
+    <string name="hint_date">Date</string>
+    <string name="add_expense">Add Expense</string>
+    <string name="category_spinner_desc">Select a category</string>
+
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="login_here">Login Here</string>
+    <string name="welcome_msg">Welcome back you\'ve been missed</string>
+    <string name="forget_your_password">Forget your password?</string>
+    <string name="create_new_account">Create new account</string>
+    <string name="sign_in">Sign in</string>
+    <string name="create_account">Create Account</string>
+    <string name="create_an_account_so_you_can_explore_all_the_existing_jobs">Create an account so you can explore all the existing jobs</string>
+    <string name="password">Password</string>
+    <string name="already_have_an_account">Already have an account</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="email">Email</string>
+    <string name="welcome_title">Simplify Your Daily Task</string>
+    <string name="welcome_content">Find and organise your to-dos and tasks to make your day more managable and stress-free</string>
+    <string name="tasks">Tasks</string>
+    <string name="categories">Categories</string>
+    <string name="calendar">Calendar</string>
+    <string name="setting">Setting</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="description">Description</string>
+    <string name="completed">Completed</string>
+    <string name="to_do">To Do</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="add_task">Add Task</string>
+    <string name="select_due_time">Select Due Time</string>
+    <string name="select_due_date">Select due date</string>
+    <string name="task_title">Task title</string>
+    <string name="task_description">Task Description</string>
+</resources>

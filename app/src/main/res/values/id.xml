@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="remark" type="id" />
+    <item name="recyclerView" type="id" />
+    <item name="nav_home" type="id" />
+    <item name="nav_add_expense" type="id" />
+    <item name="nav_expense_list" type="id" />
+    <item name="bottom_navigation_view" type="id" />
+    <item name="fragment_container_view" type="id" />
+</resources>
